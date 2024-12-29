@@ -1,0 +1,17 @@
+{
+  "name": "mac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "temp.js",
+  "scripts": {
+    "test:e2e": "npx playwright test tests/",
+    "test:e2e:all": "npx playwright test tests --project=all-browsers-and-tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2"
+  }
+}
